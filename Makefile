@@ -29,7 +29,6 @@ detect_changed_source_translations:
 	# Checking for changed translations...
 	git diff --exit-code $(i18n)
 
-
 pull_translations:
 	rm -rf src/i18n/messages
 	mkdir src/i18n/messages
